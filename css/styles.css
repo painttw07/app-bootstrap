@@ -1,0 +1,75 @@
+body{
+    font-family: 'Yomogi', cursive !important;
+}
+body header{
+
+}
+body main button{
+    margin-top: 12px !important;
+    font-weight: bold !important;
+}
+body h1{
+    margin:0;
+    font-weight: bold !important;
+}
+body h2{
+    margin:0;
+    font-weight: bold !important;
+}
+body h3{
+    margin:0;
+    font-weight: bold !important;
+}
+body h4{
+    margin:0;
+    font-weight: bold !important;
+}
+body h5{
+    margin:0;
+    font-weight: bold !important;
+}
+body p{
+    marign:0;
+    font-weight: bold !important;
+}
+body main .btn-collapse{
+    text-decoration: none !important;
+    border: 1px solid black !important;
+    background-color: #ffcce6 !important;
+    border-radius: 16px !important;
+}
+body main .img-proj{
+    padding: 10px !important;
+}
+body main img{
+    width: 100% !important;
+}
+body .slide{
+    color: white !important;
+}
+body .titulo-dep{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background: #E0E0E0 !important;
+    margin-bottom: 0;
+}
+body .btn-primary{
+    height: 42px;
+    width: 180px;
+    background-color: #ffcce6;
+    border: 1px solid black;
+    color: black;
+    border-radius: 16px;
+    font-size: 18px;
+    text-align: center;
+}
+body footer{
+    margin-top: 12px;
+    background: #ffcce6 !important;
+    padding: 20px;
+    color: black;
+
+}
+body footer address:last-child{
+    margin-bottom: 0;
+}
