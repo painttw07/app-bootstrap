@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
@@ -9,20 +9,23 @@
     <link href="../css/styles.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <style>@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');</style>
-    <title>Alura - bootstrap</title>
+    <title>Alura - app bootstrap</title>
 </head>
 <body>
-<header>
-    <section class="menu">
-        <div class="navbar navbar-default">
-            <div class="container">
-                <ul>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#contact-us">Contact</a></li>
-                    <li><a href="#projects">Services</a></li>
-                </ul>
+
+        <nav class="navbar">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-nav" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon btn-navbar"></span>
+                </button>
+                <div class="collapse" id="collapse-nav">
+                        <ul class="navbar-nav mb-1">
+                            <li class="nav-item active"><button class="" href="#">Sing Up</button></li>
+                            <li class="nav-item"><a class="nav-link" aria-current="page" href="#about-us">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link" aria-current="page" href="#contact-us">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" aria-current="page" href="#projects">Projects</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-</header>
-</body>
+        </nav>

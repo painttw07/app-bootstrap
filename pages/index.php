@@ -1,7 +1,6 @@
 <?php
 include("header.php");
 ?>
-    <body>
     <main>
         <section id="about-us" style="padding: 10px">
             <div class="container">
