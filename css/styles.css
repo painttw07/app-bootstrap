@@ -1,24 +1,35 @@
 body{
     font-family: 'Yomogi', cursive !important;
 }
-body nav {
-    background: #ffd8ea;
-
+.mobile-container {
+    max-width: 100%;
+    margin:auto;
+    background-color: #ffe2e9;
 }
-
-body nav ul li a{
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+}
+.topnav #myLinks {
+    display: none;
+}
+.topnav a {
+    float: right;
+    color: black;
+    padding: 14px;
     text-decoration: none;
-    color: black !important;
+    font-size: 16px;
+    font-weight: bold;
 }
-body .btn-navbar {
-    background: #C77296FF;
-    width: 42px !important;
-    height: 24px  !important;
-    border-radius: 14px;
-
+.topnav a.icon {
+    float: right;
+    padding: 14px 16px;
+    color: deeppink !important;
 }
-
-
+.topnav a:hover {
+    background-color: #66c2ff;
+}
 body main button{
     margin-top: 12px !important;
     font-weight: bold !important;
