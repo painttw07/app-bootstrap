@@ -4,7 +4,7 @@ body{
 .mobile-container {
     max-width: 100%;
     margin:auto;
-    background-color: #ffe2e9;
+    background-color: #E6E7E8;
 }
 .topnav {
     overflow: hidden;
@@ -15,21 +15,23 @@ body{
     display: none;
 }
 .topnav a {
-    float: right;
+    float: left;
     color: black;
     padding: 14px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 .topnav a.icon {
     float: right;
     padding: 14px 16px;
-    color: deeppink !important;
 }
 .topnav a:hover {
-    background-color: #66c2ff;
+    background-color: grey;
 }
+
+
+
 body main button{
     margin-top: 12px !important;
     font-weight: bold !important;
